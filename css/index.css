@@ -339,6 +339,23 @@ footer {
   .contactSection {
     margin-right: 50px;
   }
+
+  .services-header-img {
+    margin: 25px 0px 20px 0px;
+    width: 100%;
+  }
+
+  .services-info-img {
+    display: none;
+  }
+  .servicesSectionBox {
+    width: 100%;
+    height: auto;
+  }
+
+  .servicesSectionInfo h2 {
+    font-size: 25px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -383,5 +400,13 @@ footer {
 
   .thirdsSection p {
     margin-bottom: 20px;
+  }
+
+  .services-header-img {
+    display: none;
+  }
+
+  .services-info-img {
+    display: none;
   }
 }
